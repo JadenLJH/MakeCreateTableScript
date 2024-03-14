@@ -52,5 +52,6 @@ for sheet_name in xls.sheet_names:
     sql_script = generate_sql(sheet_name, df)
     print(f"-- {sheet_name} Table Creation Script --")
     print(sql_script)
+    print('')
 
 input()
