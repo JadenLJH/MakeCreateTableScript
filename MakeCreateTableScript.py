@@ -42,7 +42,7 @@ def generate_sql(table_name, df):
     
     sql_script = f"CREATE TABLE {table_name} (\n"
     sql_script += ",\n".join(sql_columns)
-    sql_script += "\n);\n\n"
+    sql_script += "\n);"
     
     return sql_script
 
